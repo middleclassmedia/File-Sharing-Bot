@@ -28,8 +28,8 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 
 try:
-    ADMINS=[1057100346]
-    for x in (os.environ.get("ADMINS", "1057100346").split()):
+    ADMINS=[7147253340]
+    for x in (os.environ.get("ADMINS", "7147253340").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -58,7 +58,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME :</b>\n{uptime}"
 
 USER_REPLY_TEXT = "Mingey ra!!"
 
-START_MSG = os.environ.get("START_MESSAGE", "Hello {mention}\n\nIam @Cineefile Bot")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {mention}, Iam @Cineefile Bot")
 
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {mention}\n\n<b>You Need To Join In Our Channel To Use Me\n\nKindly Please Join Channel</b>")
 
@@ -67,7 +67,7 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {mention}\n\n<b>You Need 
 
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(1057100346)
+ADMINS.append(7147253340)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
