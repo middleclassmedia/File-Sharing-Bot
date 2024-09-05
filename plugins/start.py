@@ -103,7 +103,7 @@ async def start_command(client: Client, message: Message):
 
         return
     else:
-                reply_markup = InlineKeyboardMarkup(
+        reply_markup = InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton("About Me", callback_data = "about"),
